@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+</head>
+<body>
+<h1>Software Engineering </h1> 
+<h3>Programming Language: JavaScript</h3>
+ 
+<h1>Comparison Operators</h1>
+<p>Often used in Boolean to compare whether an operands is true or false If the operands are numbers, the numeric comparison will be performed but if they are strings, the Script will evaluate them and perform comparison.</p>
+
+Operators	Description
+  ==	Equality
+  ===	Identical
+  >	Greater than
+  <	Less than
+  >=	Greater or equal 
+  <=	Less or equal 
+  !=	Not equal
+
+
+<h3>Compering numeric values</h3>
+ 
+let a = 5, 
+    b = 10; 
+    console.log(a >= b);  // false
+    console.log(a == 10); // false
+
+Five is not greater and is not equal to ten.
+<h3>Compering Strings</h3>
+<p>When the operands are strings, the Script will evaluate the strings and perform the appropriate comparison. </p>
+let f = 'Favour',
+    d = 'Divine';    
+    let result = f < d;
+    console.log(result); // false
+    console.log(f == d); // false
+    console.log(f > d); // true
+    console.log(f == 'Favour' ); // true
+    console.log(d == 'Favour'); // false
+    console.log(d == 'Divine'); // true
+<p>p>The answer is as it because the ASCII character code for ‘f’ is 070 and  ‘d’ is 068, with binary codes of 01000110 and 01000100 respectively.</p>
+<h3>Compering numbers</h3>
+//Compering numbers
+    let a = 10; //number
+        b = '10'; //string
+    console.log(a == b); // true
+    console.log(a === b); //false
+    console.log(a !== b);//true
+    console.log(a != b); //false
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+</head>
+<body>
+<h1>Software Engineering </h1> 
+<h3>Programming Language: JavaScript</h3>
+ 
+<h1>JavaScript Comparison Operators</h1>
+    
+    <p id="a1"></p>
+    <p id="a2"></p>
+    <p id="a3"></p>
+    <p id="a4"></p>
+    <p id="a5"></p>
+    <p id="a6"></p>
+    <p id="a7"></p>
+    <p id="a8"></p>
+    <p id="a9"></p>
+    <p id="a10"></p>
+    
+    <script>
+        let a = 5, b = 10, c = "5";
+        let d = a;
+
+        document.getElementById("a1").innerHTML = a == c;
+
+        document.getElementById("a2").innerHTML = a === c;
+
+        document.getElementById("a3").innerHTML = a == d;
+
+        document.getElementById("a4").innerHTML = a != b;
+
+        document.getElementById("a5").innerHTML = a > b;
+
+        document.getElementById("a6").innerHTML = a < b;
+
+        document.getElementById("a7").innerHTML = a >= b;
+
+        document.getElementById("a8").innerHTML = a <= b;
+
+        document.getElementById("a9").innerHTML = a >= c;
+ 
+        document.getElementById("a10").innerHTML = a <= c;
+ 
+    </script>
+
+    
+    
+</body>
+</html>
+
+
+
+    
+    
+</body>
+</html>
