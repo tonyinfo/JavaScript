@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>JavaScript Operators<h1>
+        <p>As in any programming or scripting language, operators are used to perform certain  functions. We are going to look into these operators as they will be very useful in our learning process.</p>
+        a.	Arithmetic Operators <br />
+        b.	Comparison Operators <br />
+        c.	Logical Operators <br />
+        d.	Assignment Operators <br />
+        e.	Conditional Operators <br />
+        <h3>Arithmetic Operators</h3>
+        Arithmetic operators are used to perform the usual mathematical operations.
+        Operators  	Description
+          +	Addition
+          *	Multiplication
+          -	Subtraction
+          /	Division
+          %	Modulus
+          ++	Increment
+           --	Decrement
+          **	Exponentiation
+        
+        
+  
+    <script>
+        //Addition
+        
+        let x = 5 + 10;
+        alert(x);
+
+        const a  = 10;
+        const b = 5;
+        const c = a + b; 
+        console.log(c);// Output 15
+       
+        //As a loosely typed script, the string can also work with the number 
+        const a  = "tony";
+        const b = 10;
+        const c = a + b; // Output tony10
+        console.log(c);
+        
+/*
+        <p>Addition.</p>
+
+<p id="add"></p>
+
+
+const c = 10 + 5;
+document.getElementById("add").innerHTML = c;//Output 15
+
+const x = 10;
+var y = 10;
+var z = x + y;
+document.getElementById("add").innerHTML = z; //Output 20
+*/
+
+ 
+//Multiplication
+const a = 5*5;
+alert(a); 
+
+const x  = 10;
+    const y = 5;
+    const z = x * y; 
+    console.log(z);// Output 50
+   
+   //As a loosely typed script, the string can also work with the number 
+    const a  = "tony";
+    const b = 10;
+    const c = a * b; 
+    console.log(c);//Output Nan - not a number
+    
+<!DOCTYPE html>
+<html>
+<body>
+
+<p> Multiplication.</p>
+
+<p id="multiply"></p>
+
+<script>
+
+const c = 10 * 5;
+document.getElementById("multiply").innerHTML = c;//Output 50
+
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p> Multiplication.</p>
+
+<p id="multiply"></p>
+
+<script>
+   
+const x = 10;
+const y = 10;
+const z = x * y;
+document.getElementById("multiply").innerHTML = z; //Output 100
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+    
+
+//Substration
+
+const a = 5-5;
+alert(a); //Output 0
+
+
+const x  = 10;
+    const y = 5;
+    const z = x - y; 
+    console.log(z);// Output 5
+  
+  
+   //As a loosely typed script, the string can also work with the number 
+    const a  = "tony";
+    const b = 10;
+    const c = a - b; 
+    console.log(c);//Output Nan - not a number
+    
+ 
+    <!DOCTYPE html>
+<html>
+<body>
+    
+<h2>Substraction.</h2>
+
+<p id="substract"></p>
+
+<script> 
+   
+const c = 10 - 5;
+document.getElementById("substract").innerHTML = c;//Output 5
+
+</script> 
+</body>
+</html>
+
+ 
+
+<!DOCTYPE html>
+<html>
+<body>
+    
+<h2>Substraction.</h2>
+
+<p id="substract"></p>
+
+<script> 
+ 
+const x = 10;
+const y = 10;
+const z = x - y;
+document.getElementById("substract").innerHTML = z; //Output 0
+
+</script> 
+</body>
+</html>
+
+
+
+<h3>Division.</h3>
+
+//Division
+
+const a = 5/5;
+alert(a); //Output 1
+
+const x  = 10;
+    const y = 5;
+    const z = x / y; 
+    console.log(z);// Output 2
+  
+   
+   //As a loosely typed script, the string can also work with the number 
+    const a  = "tony";
+    const b = 10;
+    const c = a / b; 
+    console.log(c);//Output NaN - not a number
+    
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    
+<h2>Division.</h2>
+
+<p id="divide"></p>
+
+<script> 
+  
+const c = 10 / 5;
+document.getElementById("divide").innerHTML = c;//Output 2
+</script> 
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    
+<h2>Division.</h2>
+
+<p id="divide"></p>
+
+<script> 
+  
+const x = 10;
+const y = 10;
+const z = x / y;
+document.getElementById("divide").innerHTML = z; //Output 1
+
+</script> 
+
+</body>
+</html>
+
+
+<h3> Modulus.</h3>
+
+ //Modulus
+/*
+const a = 5%5;
+alert(a); //Output 0
+
+const x  = 10;
+    const y = 5;
+    const z = x % y; 
+    console.log(z);// Output 0
+  
+   
+   //As a loosely typed script, the string can also work with the number 
+    const a  = "tony";
+    const b = 10;
+    const c = a % b; 
+    console.log(c);//Output NaN - not a number
+    
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    
+<h2>Modulus.</h2>
+
+<p id="modu"></p>
+
+<script> 
+  
+const c = 10 % 5;
+document.getElementById("modu").innerHTML = c;//Output 2
+
+</script> 
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+    
+<h2>Modulus.</h2>
+
+<p id="modu"></p>
+
+<script> 
+  
+const x = 10;
+const y = 10;
+const z = x % y;
+document.getElementById("modu").innerHTML = z; //Output 0
+
+</script> 
+
+
+
+
+
+<h2>Increment</h2>
+
+//Incremental Operator
+/*
+let a = 5;
+let b = 5;
+a++;
+--b;
+alert(a); //Output 6
+alert(b); //output 4
+
+
+let x  = 10;
+    x++;
+    let y = 5; 
+    --y;
+    console.log(x, y);// Output 11 4
+  
+    </script>
+    
+</body>
+</html>
+
+ 
+<!DOCTYPE html>
+<html>
+<body>
+    
+
+<h2>Math Pow</h2>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Display the result of 7*7*7.</p>
+
+<button onclick="myDisplay()">Try it</button>
+
+<p id="conqueror"></p>
+
+<script>
+function myDisplay() {
+  document.getElementById("conqueror").innerHTML = Math.pow(7, 3);//Output 343
+}
+
+</script>
+
+</body>
+</html>
+
+<h3> Incremental Operator.</h3>
+
+//Incremental Operator
+
+let a = 5;
+let b = 5;
+a++;
+--b;
+alert(a); //Output 6
+alert(b); //output 4
+
+let x  = 10;
+    x++;
+    let y = 5; 
+    --y;
+    console.log(x, y);// Output 11 4
+  
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    
+
+<h2>Increment</h2>
+
+<p id="increase"></p>
+
+<script>
+let a = 10;
+a++;
+let c = a;
+document.getElementById("increase").innerHTML = c;//Output 11
+</script> 
+
+</body>
+</html>
+
+<h3> Decrement.</h3>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    
+
+<h2>Decrement</h2>
+
+<p id="decrease"></p>
+
+<script>
+let a = 10;
+a--;
+let c = a;
+document.getElementById("decrease").innerHTML = c;//Output 11
+</script> 
+
+</body>
+</html>
+
+
+
+<h2>Exponentiation</h2>
+<h2>Exponentiation</h2>
+  let x  = 5;
+  
+    alert(x ** 2);// Output 25
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    
+
+<h2>Exponentiation</h2>
+
+<p id="expo"></p>
+ 
+<script>
+let a = 5;
+document.getElementById("expo").innerHTML = a ** 2;//Output 25
+
+ 
+</script>
+
+</body>
+</html>
+
+
+
+ Math Pow
+
+alert(Math.pow(7, 3));//Output 343
+
+
+<h2>Math Pow</h2>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Display the result of 7*7*7.</p>
+
+<button onclick="myDisplay()">Try it</button>
+
+<p id="conqueror"></p>
+
+<script>
+function myDisplay() {
+  document.getElementById("conqueror").innerHTML = Math.pow(7, 3);//Output 343
+}
+</script>
+
+</body>
+</html>
+
+
+ 
